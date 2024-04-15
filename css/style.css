@@ -11,6 +11,7 @@ button {
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
+  color: #434455;
 }
 
 /* ============  header styles */
@@ -21,10 +22,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-list {
   font-weight: 500;
@@ -38,19 +39,20 @@ body {
   color: #404bbf;
 }
 /* ============  header contacts styles */
+.contact-page {
+  font-style: normal;
+}
 .contact-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .contact-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .contact-mail:hover,
@@ -103,11 +105,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ============  main our team styles */
 .our-team {
   background: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .our-team-title {
@@ -137,7 +139,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 /* ============  main portfolio styles */
@@ -155,7 +156,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* ============  footer styles */
@@ -170,6 +170,15 @@ body {
 .footer {
   background: #2e2f42;
 }
+
 .footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-color {
   color: #f4f4fd;
 }
