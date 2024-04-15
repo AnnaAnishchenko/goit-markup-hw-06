@@ -44,27 +44,18 @@ body {
 .contact-page {
   font-style: normal;
 }
-.contact-mail {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.contact-tel {
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
-.contact-tel:hover,
-.contact-tel:focus {
-  color: #404bbf;
-}
+
 /* ============  main styles */
 /* ============  main hero styles */
 .hero-title {
