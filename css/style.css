@@ -217,12 +217,13 @@ gap: 40px;
 .abbillity-menu {
   display: flex;
   gap: 24px;
-  
+  min-width: 1128px;
+  width: calc((100% - 72px) / 4); 
 }
 .abbillity-item {
 display: flex;
 flex-direction: column;
-width: calc((100% - 72px) / 4); 
+
 }
 .abbillity-item:not(:last-child) {
   margin-right: 24px; 
