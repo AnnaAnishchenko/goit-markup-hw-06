@@ -89,8 +89,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
-}
+  border-bottom: 1px solid #e7e9fc; 
+ }
 .page-nav {
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ img {
 .nav-list {
   display: flex;
   justify-content: flex-start;
-  column-gap: 40px;
+gap: 40px;
 }
 .nav-item {
   display: flex;
@@ -109,6 +109,7 @@ img {
   display: flex;
   justify-content: flex-end;
   column-gap: 40px;
+  gap: 40px;
 }
 .logo {
   margin-right: 76px;
@@ -144,9 +145,11 @@ img {
   padding: 16px; 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  min-width: 169px
-  ;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   }
+
 .hero {
   background: #2e2f42;
 }
