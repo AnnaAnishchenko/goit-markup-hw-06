@@ -199,6 +199,7 @@ gap: 40px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7))  , url(../images/hero-image.jpg);
 background-repeat: no-repeat;
 max-width: 1440px;
+background-size: cover;
 
 }
 
@@ -310,8 +311,14 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 /* 28.04 */
 .social-list {
-  display: flex;
-  justify-content: space-around;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+
+
+  
   
 }
 .social-list-item {
@@ -324,10 +331,11 @@ border-radius: 50%;
   fill: #f4f4fd;;
   display: flex;
     justify-content: space-around;
-    
-  
+    transform: translateY(70%)
+  }
+.social-list-item:hover, .social-list-item:focus {
+  background-color: #404bbf;
 }
-
 /* ============  main portfolio styles */
 /* ============ Section 4 */
 .portfolio-title {
@@ -392,6 +400,7 @@ padding-top: 16px;
 .footer {
   background: #2e2f42;
   padding: 100px 0 100px;
+
 }
 
 .footer-logo {
@@ -408,4 +417,31 @@ padding-top: 16px;
 .footer-logo-color {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+}
+/* 28.04 */
+.social-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.footer-conteiner {
+  display: flex;
+  justify-content: flex-start;
+}
+.social-box-footer {
+margin-left: 120px;
+}
+.social-list-footer {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+}
+.social-list-item-footer:hover, .social-list-item-footer:focus {
+  background-color: #31d0aa;
 }
