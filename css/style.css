@@ -194,6 +194,19 @@ gap: 40px;
   margin-bottom: 48px;
   max-width: 496px;
 }
+/* 27.04 */
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7))  , url(../images/hero-image.jpg);
+background-repeat: no-repeat;
+max-width: 1440px;
+
+}
+
+
+
+
+
+
 /* ============  main abbility styles */
 /*  ========== Section 2 */
 
@@ -222,6 +235,24 @@ display: flex;
 flex-direction: column;
 width: calc((100% - 72px) / 4); 
 }
+
+/* 27.04 */
+.abbility-icon {
+  fill: #2e2f42;
+}
+.icon-box {
+display: flex;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+align-items: center;
+justify-content: center;
+margin-bottom: 8px;
+}
+
+
 
 /* ============  main our team styles */
 /* ========== Section 3 */
@@ -261,7 +292,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  
+  padding-bottom: 8px;
 }
 
 .our-team-menu {
@@ -277,8 +308,25 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .team-text {
   padding: 32px 0; 
 }
-
-
+/* 28.04 */
+.social-list {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.social-list-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;;
+border-radius: 50%;
+}
+.social-list-link {
+  fill: #f4f4fd;;
+  display: flex;
+    justify-content: space-around;
+    
+  
+}
 
 /* ============  main portfolio styles */
 /* ============ Section 4 */
