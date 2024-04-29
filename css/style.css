@@ -491,15 +491,15 @@ letter-spacing: 0.02em;
 color: #ffffff;
 margin-bottom: 16px;
 }
-
-.social-list-item-footer {
-  display: flex;
+.social-list-footer {
   gap: 16px;
 }
-
-.social-list-link-footer{
-gap: 16px;
+.social-list-item-footer {
+  display: flex;
+  
 }
+
+
 .social-list-link-footer:hover, 
 .social-list-link-footer:focus {
   background-color: #31d0aa;
