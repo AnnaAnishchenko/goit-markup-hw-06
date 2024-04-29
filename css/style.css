@@ -497,6 +497,9 @@ margin-bottom: 16px;
   gap: 16px;
 }
 
+.social-list-link-footer{
+gap: 16px;
+}
 .social-list-link-footer:hover, 
 .social-list-link-footer:focus {
   background-color: #31d0aa;
