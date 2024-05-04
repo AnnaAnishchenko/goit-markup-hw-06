@@ -598,7 +598,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin: 72px 24px;
+margin-top: 72px;
+margin-bottom: 16px;
+margin-left: 24px;
+margin-right: 24px;
 }
 
 .order-form {
@@ -618,7 +621,7 @@ margin: 72px 24px;
 .order-form-lable {
   font-weight: 400;
   font-size: 12px;
-  // line-height: 14px; 
+  
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -648,4 +651,14 @@ border-color: #4d5ae5;
 .order-form-icons:focus,
 .order-form-icons:hover {
   fill: #4d5ae5;
+}
+.order-form-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+  resize: none;
+}
+.order-form-textarea {
+  padding-left: 16px;
 }
