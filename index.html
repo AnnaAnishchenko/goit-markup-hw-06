@@ -512,14 +512,14 @@
         <div class="modal-form">
           <form class="order-form">
             <div class="order-form-box">
-              <label class="order-form-lable"> Name</label>
+              <label class="order-form-lable" for="name"> Name</label>
               <input
                 class="order-form-input"
                 type="text"
-                id=""
+                id="name"
                 name="name"
-                pattern="[a-zA-zа-яА-ЯіІїЇєЄ]"
-                placeholder="Anna"
+                pattern="[a-zA-zа-яА-ЯіІїЇєЄ']"
+                title="Anna"
                 required
               />
               <svg class="order-form-icons" width="18" height="18">
@@ -527,14 +527,14 @@
               </svg>
             </div>
             <div class="order-form-box">
-              <label class="order-form-lable"> Phone</label>
+              <label class="order-form-lable" for="tel"> Phone</label>
               <input
                 class="order-form-input"
                 type="tel"
-                id=""
+                id="phone"
                 name="phone"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                placeholder="xxx-xxx-xx-xx"
+                title="xxx-xxx-xx-xx"
                 required
               />
               <svg class="order-form-icons" width="18" height="18">
@@ -542,13 +542,12 @@
               </svg>
             </div>
             <div class="order-form-box">
-              <label class="order-form-lable"> Email</label>
+              <label class="order-form-lable" for="email"> Email</label>
               <input
                 class="order-form-input"
                 type="email"
-                id=""
+                id="email"
                 name="email"
-                placeholder="test-test@gmail.com"
                 required
               />
               <svg class="order-form-icons" width="18" height="18">
@@ -556,12 +555,13 @@
               </svg>
             </div>
             <div class="order-form-box">
-              <label class="order-form-lable"> Comment </label>
+              <label class="order-form-lable" id="text-input"> Comment </label>
               <textarea
                 class="order-form-textarea"
-                id=""
-                name="Text input"
+                id="text-input"
+                name="text-input"
                 placeholder="Text input"
+                required
               ></textarea>
             </div>
           </form>
