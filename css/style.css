@@ -521,11 +521,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .subscrabe-box {
-  display: flex;
-}
-
-.subscrabe-form-box {
+display: flex;
 margin-left: 80px;
+flex-direction: column;
 }
 .subscribe-form-lable {
   font-weight: 500;
@@ -533,18 +531,36 @@ margin-left: 80px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
+.subscribe-form {
+  display: flex;
+  width: 453px;
+  gap: 24px;
+}
+
+
 .subscrabe-form-input {
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  max-width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  padding-left: 16px;
 }
+
+.subscribe-button-box {
+  display: flex;
+  padding-left: 24px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .subscribe-button {
   border-radius: 4px;
-  padding: 8px 24px;
   min-width: 165px;
   height: 40px;
   background: #4d5ae5;
@@ -556,6 +572,19 @@ margin-left: 80px;
 .subscribe-button:focus {
   background-color: #404bbf;
 }
+
+.subscribe-form-icons {
+fill: #ffffff;
+position: absolute;
+top: 0;
+right: 0;
+transform: translateY(50%);
+}
+
+
+
+
+
 
 
 /* ==== modal */
