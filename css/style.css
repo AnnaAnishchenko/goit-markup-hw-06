@@ -678,7 +678,6 @@ margin-bottom: 16px;
   height: 336px;
 }
 .order-form-box {
-  
   margin-bottom: 8px; 
 }
 .order-form-lable {
@@ -726,6 +725,10 @@ fill: #4d5ae5;
 .order-form-icons:focus,
 .order-form-icons:hover {
   fill: #4d5ae5;
+}
+
+.order-form-comment-box {
+  margin-bottom: 16px; 
 }
 
 .order-form-textarea {
