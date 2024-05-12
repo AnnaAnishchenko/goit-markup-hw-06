@@ -48,12 +48,12 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .link-padding {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 /* ===========    Conteiner  styles */
 .container {
   max-width: 320px;
@@ -117,4 +117,105 @@ img {
 .icon-burger {
   fill: #2f2f37;
   display: block;
+}
+/*    header */
+@media screen and (min-width: 768px) {
+  .btn-burger {
+    display: none;
+  }
+  .logo {
+    padding: 24px 0;
+  }
+
+  .page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 120px;
+  }
+
+  .nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+  }
+
+  .nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px 0;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404bbf;
+  }
+  .current {
+    position: relative;
+    color: #404bbf;
+  }
+  .current::after {
+    content: "";
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background: #404bbf;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+
+  .contact-page {
+    display: block;
+    font-style: normal;
+  }
+  .contact-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contact-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contact-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contact-link:hover,
+  .contact-link:focus {
+    color: #404bbf;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .logo {
+    margin-right: 76px;
+  }
+  .contact-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact-link {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
 }
