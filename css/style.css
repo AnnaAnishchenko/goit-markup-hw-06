@@ -1139,6 +1139,7 @@ padding:  0 16px; 40px; 16px;
   gap: 24px;
   width: 193px;
   height: 72px;
+  margin-bottom: 48px;
 }
 .mob-menu-contact-item {
 font-weight: 500;
@@ -1146,8 +1147,17 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
+padding-bottom: 24px;
 }
-
+.mob-menu-social {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+width: 280px;
+height: 40px;
+}
 
 @media screen and (min-width: 768px) { 
 .mob-menu {
